@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  
+  <test name="Sanity in GC">
+    <parameter name="browser" value="FF"/>
+    <listeners>
+        <listener class-name="abcpack.RetryListner" />
+    </listeners>  
+    <classes>
+        <class name="abcpack.PageFactoryDemo"/>
+        
+    </classes>
+    
+  </test>
+            
+</suite>
